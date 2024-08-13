@@ -32,7 +32,7 @@ def query_db(query, args=(), one=False):
 
 @app.route("/")
 def index():
-    """Endpoint para retornar a versão atualizada."""
+    """Endpoint para retornar a versão."""
     return jsonify({"versao atualizada": 1}), 200
 
 
